@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: Country data management
+Implementation-Version: 1.0.0
+Built-By: agohar
+Implementation-Vendor-Id: com.amr.sideTasks
+Spring-Boot-Version: 2.1.4.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.amr.web.Application
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.5.3
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/country-data-management
+

@@ -1,0 +1,13 @@
+- you have to create a network to enable the communication between the database image and the app image
+docker network create my-network
+
+- run the database image with name database and related to the created network
+docker run -d --name database --network my-network -p8081:5432 ghusta/postgres-world-db:2.3
+
+- build the app
+mvn install dockerfile:build
+
+- run the app
+docker run -d --name countryManagementAppFull --network my-network -p8080:8080 amr/country-data-management
+
+
